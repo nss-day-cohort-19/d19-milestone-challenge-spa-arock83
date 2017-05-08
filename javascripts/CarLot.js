@@ -39,6 +39,9 @@ var Carlot = (function (object) {
           }
           page +=   `<div class="col carcard">
                   <div class="card" id="car--${n}">
+                    <div>
+                      <img class="card-img-top" src="`+array[n].image+`" alt="`+array[n].name+`">
+                    </div>
                     <div class="card-block">
                       <h4 class="card-title}">`+array[n].name+`</h4>
                       <p class="card-text" id="desc--${n}">`+array[n].description+`</p>
@@ -52,7 +55,7 @@ var Carlot = (function (object) {
         }
         page += `</div>`;
         productPage.innerHTML = page;
-
+        Carlot.activateEvents();
       }
       return object;
 })(Carlot || {});

@@ -2,20 +2,27 @@ console.log("Highlighter.js loaded");
 
 var Carlot = (function (object) {
 
-		object.highlighter = function (index) {
-			if (isNaN(index)) {
-
-			} else {
-				object.dehighlighter();
-				var selected = document.getElementById("car--"+index);
-				selected.classList.add("highlighted");
-			}
+		object.highlighter = function (id) {
+			object.dehighlighter();
+			console.log("highlighter id", id);
+			var selected = document.getElementById(id);
+			console.log("selected", selected);
+			selected.classList.add("highlighted");
+			var edit = document.getElementById("edit");
+			var editBtn = document.getElementById("editBtn");
+			edit.focus();
+			var index = id.replace("car--", "");
+			console.log("index", index);
+			var desciption = document.getElementById(`desc--`+index)
+			editBtn.addEventListener("click", function(event) {
+				desciption.innerHTML = edit.value;
+			});
 		}
 		object.dehighlighter = function() {
 			var list = document.getElementsByClassName("card");
 			//console.log(list);
 			for (n=0;n<list.length;n+=1) {
-				console.log(n);
+				
 				list.item(n).classList.remove("highlighted");
 			}
 			

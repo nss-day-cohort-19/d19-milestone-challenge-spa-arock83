@@ -1,7 +1,7 @@
 console.log("main.js loaded");
 
 Carlot.loadInventory(Carlot.populatePage);
-Carlot.activateEvents();
+	
 
 //Carlot.populatePage(Carlot.loadInventory);
 // var productPage = document.getElementById("productPage");
