@@ -2,62 +2,62 @@
   "cars": [
     {
 	"name": "Tomber",
-	"year": "2006",
-    "price": "8999",
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything.",
+	"year": "1985",
+    "price": "$5999",
+    "description": "Born missing on of her front wheels.  Her favorite activity to driving in circles.",
     "featured": false,
     "image": "img/tomber-cars-2.jpg"
     },{
     "name": "Miles Axlerod",
-    "year": "2006",
-    "price": "8999",
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything.",
+    "year": "2004",
+    "price": "$9899",
+    "description": "This all-terrain vehicle loves hikes in the mountain",
     "featured": false,
     "image": "img/miles-axlerod.jpg"
     },{
     "name": "Mama Topolino",
-    "year": "2006",
-    "price": "8999",
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything.",
+    "year": "1974",
+    "price": "$999",
+    "description": "Got some miles on her but he home cooking is to spped for.",
     "featured": false,
     "image": "img/cars-2-mama-topolino.jpg"
     },{
     "name": "Uncle Topolino",
-    "year": "2006",
-    "price": "8999",
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything.",
+    "year": "1972",
+    "price": "$879",
+    "description": "What else can I say?  This guy is ugly.",
     "featured": false,
     "image": "img/cars-2-uncle-topolino.jpg"
     },{
 
     "name": "David Hobbscap",
-    "year": "2006",
-    "price": "8999",
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything.",
+    "year": "1968",
+    "price": "$1299",
+    "description": "Some styles never go out of style.",
     "featured": false,
     "image": "img/david-hobbscap-pixar-cars-2.jpg"
     },{
 
     "name": "Mustangburger",
-    "year": "2006",
-    "price": "8999",
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything.",
+    "year": "1973",
+    "price": "$1599",
+    "description": "If you let him talk, he'll tell you all about the 'good-ole-days'.",
     "featured": false,
     "image": "img/mustangburger-large.jpg"
 	},{
 
     "name": "Acer",
-    "year": "2006",
-    "price": "8999",
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything.",
+    "year": "2001",
+    "price": "$8999",
+    "description": "Just needs a new coat of paint.",
     "featured": false,
     "image": "img/02-1296769505.jpg"
 	},{
 
     "name": "Finn McMissle",
     "year": "2006",
-    "price": "8999",
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything.",
+    "price": "$7599",
+    "description": "He comes with missles, cause why not?",
     "featured": true,
     "image": "img/07-1296769508.jpg"
 	}

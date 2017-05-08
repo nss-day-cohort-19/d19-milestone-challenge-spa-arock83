@@ -21,7 +21,8 @@ aside {
 .highlighted {
 	border: 2px solid black;
 	box-shadow: 2px 4px 5px grey;
-	background-color: lightgrey;
+	background-color: blue;
+	color: white;
 }
 
 #copyright {
@@ -31,5 +32,22 @@ aside {
 
 .card-img-top {
 	width: 100%;
+}
+
+.jumbotron {
+   	background-image: url("../img/jumbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0;
+}
+
+#copyright {
+	background-color: black;
+	color: white;
+
+}
+#copyright p {
+	margin:0;
 }
 
