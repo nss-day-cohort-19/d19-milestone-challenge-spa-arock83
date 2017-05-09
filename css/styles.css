@@ -1,0 +1,53 @@
+aside {
+	background-color: grey;
+}
+
+
+.carcard {
+	margin-top:2em;
+	margin-bottom: 2em;
+	
+}
+
+.card {
+	box-shadow: 1px 2px 5px grey;
+	border: 1px solid black;
+}
+
+.navbar-brand {
+	margin-right: 50%;
+}
+
+.highlighted {
+	border: 2px solid black;
+	box-shadow: 2px 4px 5px grey;
+	background-color: blue;
+	color: white;
+}
+
+#copyright {
+	text-align: center;
+}
+
+
+.card-img-top {
+	width: 100%;
+}
+
+.jumbotron {
+   	background-image: url("../img/jumbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0;
+}
+
+#copyright {
+	background-color: black;
+	color: white;
+
+}
+#copyright p {
+	margin:0;
+}
+
